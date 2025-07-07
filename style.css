@@ -1132,6 +1132,8 @@ body{
 .textonav1{ /*FONTE DOS TEXTOS NAVBAR*/
     display: block;
     font-family: 'SF Pro Display', sans-serif;
+    font-style: italic;
+    color: rgba(17, 17, 17, 0.8);
     margin: 5%;
 }
 
