@@ -79,7 +79,7 @@ body{
 .TituloS{ /* Titulo secundario degrade*/
     display: flex;
     justify-content: center;
-    font-size: 49px;
+    font-size: 100px;
      font-family: 'SF Pro Display', sans-serif;
     font-style: italic;
     color: rgba(17, 17, 17, 0.8);
