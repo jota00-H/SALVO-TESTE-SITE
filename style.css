@@ -2409,8 +2409,17 @@ body{
     width: 513px;
     height: 711px;
     justify-items: center;
+    margin: 0 auto;
+    margin-left: 200px;
 }
 
+
+@media(max-width:723px){
+    html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+}
 
 html, body {
   max-width: 100%;
