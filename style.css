@@ -617,14 +617,16 @@ body{
 .TEXTOBOXES1{/* DONTE COR E TAMANHO PARA TODOS OS TITULOS DOS GRIDS*/
     font-family: "Biryani", sans-serif;
     font-weight: bold;
-    
-     font-size: 0.9rem;
+    font-style: normal;
+    font-size: 0.9rem;
+    color: #4D4D4D;
 }
 
 .TEXTOBOXES2{/* DONTE COR E TAMANHO PARA TODAS AS DESCRIÇÕES DOS GRIDS*/
     font-family: "Biryani", sans-serif;
-     font-size: 0.8rem;
-     color: #4D4D4D;
+    font-size: 0.8rem;
+    font-style: normal;
+    color: #4D4D4D;
 }
 
 @media(max-width:723px){
@@ -737,13 +739,17 @@ body{
 .TEXTOBOXES1{/* DONTE COR E TAMANHO PARA TODOS OS TITULOS DOS GRIDS*/
     font-family: "Biryani", sans-serif;
     font-weight: bold;
-     font-size: 0.73rem;
+    font-style: normal;
+    font-size: 0.73rem;
+    color: #4D4D4D;
+    
 }
 
 .TEXTOBOXES2{/* DONTE COR E TAMANHO PARA TODAS AS DESCRIÇÕES DOS GRIDS*/
     font-family: "Biryani", sans-serif;
-     font-size: 0.73rem;
-     color: #4D4D4D;
+    font-style: normal;
+    font-size: 0.73rem;
+    color: #4D4D4D;
 
 
 }
