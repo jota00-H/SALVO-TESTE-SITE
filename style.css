@@ -80,7 +80,7 @@ body{
     display: flex;
     justify-content: center;
     font-size: 50px;
-     font-family: 'SF Pro Display', sans-serif;
+    font-family: 'SF Pro Display', sans-serif;
     font-style: italic;
     color: rgba(17, 17, 17, 0.8);
     margin-top: -20px;
@@ -162,6 +162,8 @@ body{
         justify-content: center;
         font-size: 25px;
         font-family: 'SF Pro Display', sans-serif;
+        font-style: italic;
+        color: rgba(17, 17, 17, 0.8);
         margin-top: -10px;
     }
 
@@ -496,7 +498,7 @@ body{
     color: #111111;
     margin: 10px auto -10px -7%;
     font-family: "Crimson Text", serif;
-    font-size: 2.2rem;
+    font-size: 2.0rem;
 }
 
 .textobalao1{ /*TEXTO DO HORARIO E ALINAHEMNTO*/
