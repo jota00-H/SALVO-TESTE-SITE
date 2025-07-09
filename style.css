@@ -2663,11 +2663,16 @@ body{
 
 
 @media(max-width:723px){
+
+    .textos{
+    justify-items: center;
+}
+
    .vamosconversar{
     display: flex;
     justify-content: center;
     color: #800020;
-    font-size: 35px;
+    font-size: 45px;
     font-family: "Crimson Text", serif;
     font-weight: 600;
     font-style: italic;
@@ -2678,7 +2683,7 @@ body{
     display: flex;
     font-family: 'SF Pro Display', sans-serif;
     font-style: italic;
-    font-size: 0.88rem;
+    font-size: 0.85rem;
     color: rgba(17, 17, 17, 0.8);
     
 }
