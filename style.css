@@ -2484,10 +2484,85 @@ body{
 
 
 @media(max-width:723px){
-    html, body {
-    max-width: 100%;
-    overflow-x: hidden;
+   .vamosconversar{
+    display: flex;
+    justify-content: center;
+    color: #800020;
+    font-size: 35px;
+    font-family: "Crimson Text", serif;
+    font-weight: 600;
+    font-style: italic;
 }
+
+.preenchaoform{
+    margin-top: -10px;
+    display: flex;
+    font-family: 'SF Pro Display', sans-serif;
+    font-style: italic;
+    font-size: 0.88rem;
+    color: rgba(17, 17, 17, 0.8);
+    
+}
+
+
+.boxedeenvio {
+    margin-top: 20px;
+    width: 370px;
+    height: 361px;
+    background-color: #eaeaea;
+    border-radius: 10px;
+    padding: 15px;
+    font-family: Arial, sans-serif;
+    box-shadow: 0px 3px 5px rgba(0,0,0,0.1);
+}
+
+.boxedeenvio form p {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.boxedeenvio form label {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.boxedeenvio form input[type="tel"],
+.boxedeenvio form input[type="text"],
+.boxedeenvio form input[type="email"],
+.boxedeenvio form input[type="number"],
+.boxedeenvio form textarea,
+.boxedeenvio form input[type="text"]#idgtmensagem {
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 14px;
+    box-shadow: inset 1px 1px 5px rgba(0,0,0,0.2);
+}
+
+.boxedeenvio form textarea,
+.boxedeenvio form input[type="text"]#idgtmensagem {
+    height: 80px;
+    resize: none;
+}
+
+.boxedeenvio form input[type="submit"] {
+    background-color: #800020;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    padding: 7px 20px;
+    cursor: pointer;
+    font-weight: bold;
+    align-self: flex-end;
+    transition: background-color 0.2s;
+}
+
+.boxedeenvio form input[type="submit"]:hover {
+    background-color: #650019;
+}
+
+
 }
 
 html, body {
