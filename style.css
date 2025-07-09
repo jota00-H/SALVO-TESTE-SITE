@@ -2293,8 +2293,8 @@ body{
     .NossaConsultoria{ /*ALINHAMETNO DA DIV DE TEXTO*/
     width: 100%;
     margin: -80px auto;
-    justify-items: center;
     padding-top: 100px;
+    justify-items: center;
 }
 
 .Textonossaconsultoria{ /*FONTE E COR DO TEXTO*/
