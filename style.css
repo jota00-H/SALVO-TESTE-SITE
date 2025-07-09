@@ -2310,7 +2310,7 @@ body{
     .BOXESCONSULTORIA{ /*DEIV DE ALINHAMENTO DAS BOXES DOS TIPOS DE CONSULTORIA*/
     display: flex;
     margin-top: 50px;
-    
+    justify-content: center;
     gap: 0px;
     flex-wrap: wrap;
 }
