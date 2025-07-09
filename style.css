@@ -2422,18 +2422,10 @@ body{
     
 }
 
-.boxedeenvio{
-    background: #EDEDED;
-    border-radius: 20px;
-    margin-bottom: 5%;
-    margin-top: 20px;
-    width: 513px;
-    height: 711px;
-    justify-items: center;
-}
-
 .boxedeenvio {
-    width: 300px;
+    margin-top: 20px;
+    width: 363px;
+    height: 361px;
     background-color: #eaeaea;
     border-radius: 10px;
     padding: 15px;
@@ -2470,6 +2462,24 @@ body{
     height: 80px;
     resize: none;
 }
+
+.boxedeenvio form input[type="submit"] {
+    background-color: #800020;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    padding: 7px 20px;
+    cursor: pointer;
+    font-weight: bold;
+    align-self: flex-end;
+    transition: background-color 0.2s;
+}
+
+.boxedeenvio form input[type="submit"]:hover {
+    background-color: #650019;
+}
+
+
 
 
 
