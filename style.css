@@ -2048,6 +2048,7 @@ body{
 .sistemasacompanhamento{ /*ALINHAMENTO DIV DAS IMAGENS*/
    align-items: center;
    justify-items: center;
+   width: 90%;
 }
 
 .logofns{ /*ESPAÇAMETNO LOGO FNS*/
@@ -2574,6 +2575,9 @@ body{
     width: 100%;
 }
 
+.textossistemas{
+    width: 90%;
+}
 
 
 
