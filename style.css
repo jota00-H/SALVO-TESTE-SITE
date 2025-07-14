@@ -2324,6 +2324,31 @@ body{
       "dois";
   }
 
+
+
+  .BOXESC2 {
+    grid-area: Principal;
+    padding-bottom: 20px;
+  }
+
+
+.BOXESC2{ /* ALINHAMENTO E BACKGROUND BOXE 3*/
+    background: radial-gradient(
+    closest-side,
+    rgba(255, 255, 255, 0.04),
+    rgba(59, 60, 66, 0.04)
+    );
+    border-radius: 20px;
+    margin-bottom: 0%;
+    width: 370px;
+    height: auto;
+    margin-top: 40px;
+    justify-content: center;
+    align-content: center;
+}
+
+
+
   .BOXESC1 {
     grid-area: um;
   }
@@ -2510,33 +2535,6 @@ body{
 }
 
 
-
-
-
-
-  .BOXESC2 {
-    grid-area: Principal;
-    padding-bottom: 20px;
-  }
-
-
-.BOXESC2{ /* ALINHAMENTO E BACKGROUND BOXE 3*/
-    background: radial-gradient(
-    closest-side,
-    rgba(255, 255, 255, 0.04),
-    rgba(59, 60, 66, 0.04)
-    );
-    border-radius: 20px;
-    margin-bottom: 0%;
-    width: 370px;
-    height: auto;
-    margin-top: 40px;
-    justify-content: center;
-    align-content: center;
-}
-
-
-
   .BOXESC3 {
     grid-area: dois;
     padding-bottom: 20px;
@@ -2560,6 +2558,134 @@ body{
   .logofns1{ /*ESPAÇAMETNO LOGO FNS*/
     
     width: 100%;
+}
+
+
+.NOSSOSSERVIÇOA {
+    background-color: #fffdfd;
+    padding-top: 100px;
+    padding-bottom: 5%;
+}
+
+.NossaConsultoria {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.Textonossaconsultoria {
+    font-family: 'SF Pro Semibold', sans-serif;
+    font-weight: 600;
+    font-style: italic;
+    font-size: 2rem;
+    color: rgba(17, 17, 17, 0.8);
+}
+
+/* Box container (Default Flexbox for general usage) */
+.BOXESCONSULTORIA {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+.BOXESC1, .BOXESC2, .BOXESC3 {
+    background: radial-gradient(closest-side, rgba(255, 255, 255, 0.04), rgba(59, 60, 66, 0.04));
+    border-radius: 20px;
+    width: 370px;
+    height: auto;
+    margin-bottom: 5%;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Tablet View: 724px - 1216px */
+@media (min-width: 724px) and (max-width: 1216px) {
+    .NossaConsultoria {
+        padding-top: 80px;
+    }
+
+    .BOXESCONSULTORIA {
+        display: grid;
+        grid-template-areas:
+            "um"
+            "Principal"
+            "dois";
+        justify-items: center;
+    }
+
+    .BOXESC1 {
+        grid-area: Principal;
+        width: 594px;
+    }
+
+    .BOXESC2 {
+        grid-area: um;
+        width: 594px;
+    }
+
+    .BOXESC3 {
+        grid-area: dois;
+        width: 594px;
+    }
+}
+
+/* Large Tablet/Laptop View: 1217px - 1419px */
+@media (min-width: 1217px) and (max-width: 1419px) {
+    .BOXESCONSULTORIA {
+        display: grid;
+        grid-template-areas: "Principal um dois";
+        justify-content: center;
+    }
+
+    .BOXESC1 {
+        grid-area: Principal;
+    }
+
+    .BOXESC2 {
+        grid-area: um;
+        width: 450px;
+    }
+
+    .BOXESC3 {
+        grid-area: dois;
+    }
+}
+
+/* Mobile View: ≤ 723px */
+@media (max-width: 723px) {
+    .NossaConsultoria {
+        padding-top: 50px;
+        margin-top: -50px;
+    }
+
+    .Textonossaconsultoria {
+        font-size: 1.5rem;
+    }
+
+    .BOXESCONSULTORIA {
+        display: grid;
+        grid-template-areas:
+            "Principal"
+            "um"
+            "dois";
+        justify-items: center;
+    }
+
+    .BOXESC2 {
+        grid-area: Principal;
+        width: 90%;
+    }
+
+    .BOXESC1, .BOXESC3 {
+        width: 90%;
+        margin-top: 20px;
+    }
 }
 
 
