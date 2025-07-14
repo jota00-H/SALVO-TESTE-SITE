@@ -2753,7 +2753,7 @@ body{
     font-weight: bold;
     align-self: flex-end;
     transition: background-color 0.2s;
-    padding: 40px;
+    padding: 10px;
 }
 
 .boxedeenvio form input[type="submit"]:hover {
