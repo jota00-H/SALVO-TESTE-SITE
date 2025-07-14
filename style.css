@@ -2290,6 +2290,13 @@ body{
 
 @media(max-width:768px){
 
+    .NOSSOSSERVIÇOA{ /*BACKGROUND DA SECTION*/
+    background-color: #fffdfd;
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+
    .NossaConsultoria{ /*ALINHAMETNO DA DIV DE TEXTO*/
     display: flex;
     margin: -60px auto;
