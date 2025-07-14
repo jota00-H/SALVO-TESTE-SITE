@@ -2172,7 +2172,7 @@ body{
 
 
 
-@media (min-width: 724px) and (max-width: 1216px){
+@media (min-width: 769px) and (max-width: 1216px){
 
     
 
@@ -2288,7 +2288,7 @@ body{
 
 
 
-@media(max-width:723px){
+@media(max-width:768px){
 
     .NossaConsultoria{ /*ALINHAMETNO DA DIV DE TEXTO*/
     display: block;
