@@ -1756,6 +1756,7 @@ body{
 
 .logofns{ /*ESPAÇAMETNO LOGO FNS*/
     margin-top: 150px;
+    
 }
 
 
@@ -2034,6 +2035,11 @@ body{
    width: 97%;
 }
 
+.textossuportecard{ /*DIV DE ALINAHMETNO DOS TEXTOS DO CARD SUPORTE*/
+    margin-top: 20px;
+    width: 90%;
+}
+
 }
 
 
@@ -2268,11 +2274,6 @@ body{
 }
 
 
-.textossuportecard{ /*DIV DE ALINAHMETNO DOS TEXTOS DO CARD SUPORTE*/
-    margin-top: 20px;
-    width: 90%;
-}
-
 .textossuportecard1{ /*TITULOS DOS CARDS*/
     font-family: "Biryani", sans-serif;
     font-weight: bold;
@@ -2337,6 +2338,11 @@ body{
    width: 97%;
 }
 
+
+.textossuportecard{ /*DIV DE ALINAHMETNO DOS TEXTOS DO CARD SUPORTE*/
+    margin-top: 20px;
+    width: 90%;
+}
 
 
 
