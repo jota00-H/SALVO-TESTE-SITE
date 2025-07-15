@@ -2610,7 +2610,9 @@ body{
 }
 
 .alinr{
-    margin: 0 auto;
+   display: block;
+   justify-content: center;
+   align-content: center;
 }
 
 .cpr{
