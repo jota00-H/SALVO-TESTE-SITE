@@ -1764,9 +1764,9 @@ body{
 }
 
 
-.textossistemas{ /*ALINHAEMNTO TEXTOS*/
-    margin-top: 80px;
-    width: 100%;
+.textossuportecard10{ /*ALINHAEMNTO TEXTOS*/
+    
+    width: 90%;
 }
 
 
@@ -1877,8 +1877,8 @@ body{
     margin-bottom: 50px;
 }
 
-.textossistemas{ /*ALINHAEMNTO TEXTOS*/
-    margin-top: 80px;
+.textossuportecard10{ /*ALINHAEMNTO TEXTOS*/
+    margin-top: -30px;
     width: 90%;
 }
 
