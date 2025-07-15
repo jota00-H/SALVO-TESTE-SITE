@@ -2374,6 +2374,12 @@ body{
 
 }
 
+
+.caixadeenvio{
+    padding-bottom: 50px;
+}
+
+
 .objetoscaixadeenvio{
     padding-top: 100px;
     justify-items: center;
@@ -2591,6 +2597,21 @@ body{
 }
 
 
+}
+
+
+.rodape{
+    width: 100%;
+    height: 100px;
+    background-color: #650019;
+    justify-items: center;
+    align-content: center;
+}
+
+.cpr{
+    color: #D4D0D0;
+    font-family: 'SF Pro Display', sans-serif;
+    font-style: italic;
 }
 
 
