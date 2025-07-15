@@ -32,8 +32,8 @@ body{
 
 
 .HEADERSLINKS .LOGO{ /* DIV EM QUE ESTÁ O LOGO*/
-    width: 157px;
-    height: 105px;
+    width: 84px;
+    height: 81px;
 }
 
 .LOGO1{ /* LOGO */
@@ -41,7 +41,9 @@ body{
     height: auto;
 }
 
-
+.LOGO{
+    margin: 30px;
+}
 
 .HEADERSLINKS .LINKS{ /* DIV EM QUE ESTÁ OS LINKS*/
     margin: 30px;
@@ -136,11 +138,11 @@ body{
 
     .HEADERSLINKS{
         justify-content: center;
-        margin-left: 40px;
+        margin-left: 20px;
     }
     
     .LOGO{
-        margin-left: -30px;
+        margin: 30px 30px 0px 20px;
     }
     
     .LINKS{
@@ -496,13 +498,13 @@ body{
 .BOXEGRAFICO{/*TAMANHO E DEFINIÇÃO DA OCUPAÇÃO NO GRID*/
     grid-area: Grafico;
     width: 370px;
-    height: 445px;
+    height: 465px;
 }
 
 .BOXEFORCA{/*TAMANHO E DEFINIÇÃO DA OCUPAÇÃO NO GRID*/
     grid-area: Raio;
     width: 370px;
-    height: 167px;
+    height: 187px;
 }
 
 
@@ -1756,14 +1758,15 @@ body{
 
 .logofns{ /*ESPAÇAMETNO LOGO FNS*/
     margin-top: 150px;
-    width: 90%;
+    width: 110%;
+    margin-bottom: 40px;
     
 }
 
 
 .textossistemas{ /*ALINHAEMNTO TEXTOS*/
     margin-top: 80px;
-    width: 90%;
+    width: 100%;
 }
 
 
@@ -1870,11 +1873,12 @@ body{
   }
 
   .logofns1{ /*ESPAÇAMETNO LOGO FNS*/
-    
     width: 100%;
+    margin-bottom: 50px;
 }
 
-.textossistemas{
+.textossistemas{ /*ALINHAEMNTO TEXTOS*/
+    margin-top: 80px;
     width: 90%;
 }
 
