@@ -2438,6 +2438,16 @@ body{
         font-family: Arial, sans-serif;
         box-shadow: 0px 3px 5px rgba(0,0,0,0.1);
     }
+
+    .preenchaoform {
+    font-family: 'SF Pro Display', sans-serif;
+    font-style: italic;
+    font-size: 1.5rem;
+    color: rgba(17, 17, 17, 0.8);
+    margin-top: -10px; /* pequeno espaço acima */
+    width: 100%;         /* opcional: melhor leitura em mobile */
+  }
+
 }
 
 
