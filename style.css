@@ -2007,9 +2007,7 @@ body{
     width: 100%;
 }
 
-.textossistemas{
-    width: 90%;
-}
+
 
 
 .iconesuporte2{ /*TRATAMENTO E COR VERDE DE SOBREPOSIÇÃO*/
@@ -2028,6 +2026,12 @@ body{
     box-shadow: inset 0px 4px 4px 0px rgba(0, 0, 0, 0.25),
         0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     margin: 0 auto;
+}
+
+.sistemasacompanhamento{ /*ALINHAMENTO DIV DAS IMAGENS*/
+   align-items: center;
+   justify-items: center;
+   width: 97%;
 }
 
 }
@@ -2325,6 +2329,12 @@ body{
 
 .textossistemas{
     width: 90%;
+}
+
+.sistemasacompanhamento{ /*ALINHAMENTO DIV DAS IMAGENS*/
+   align-items: center;
+   justify-items: center;
+   width: 97%;
 }
 
 
