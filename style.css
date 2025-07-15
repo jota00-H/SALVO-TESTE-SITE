@@ -1877,17 +1877,17 @@ body{
 
 
 @media (min-width: 769px) and (max-width: 1216px){
+  
 
-    
-
-   .NOSSOSSERVICOA {
+   .NOSSOSSERVIÇOA {
     background-color: #fffdfd;
     display: flex;             /* Torna o container flexível */
     flex-direction: column;    /* Caso queira alinhamento vertical dos itens */
     justify-content: center;   /* Centraliza verticalmente */
     align-items: center;       /* Centraliza horizontalmente */
     padding-top: 100px;
-    padding-bottom: 5%;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
 }
 
     .NossaConsultoria{ /*ALINHAMETNO DA DIV DE TEXTO*/
@@ -1912,6 +1912,7 @@ body{
     display: grid; /* ← necessário */
     align-items: center;
     justify-items: center;
+    gap: 0;
     grid-template-areas:
       "um"
       "Principal"
