@@ -2376,7 +2376,7 @@ body{
 
 
 .caixadeenvio{
-    padding-bottom: 50px;
+    padding-bottom: 100px;
 }
 
 
@@ -2606,12 +2606,14 @@ body{
     background-color: #650019;
     justify-items: center;
     align-content: center;
+    padding-bottom: 20px;
 }
 
 .cpr{
     color: #D4D0D0;
     font-family: 'SF Pro Display', sans-serif;
     font-style: italic;
+    text-decoration: none;
 }
 
 
