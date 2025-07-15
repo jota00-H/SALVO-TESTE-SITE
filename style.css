@@ -1872,6 +1872,10 @@ body{
     width: 100%;
 }
 
+.textossistemas{
+    width: 90%;
+}
+
 }
 
 
@@ -2001,6 +2005,10 @@ body{
   .logofns1{ /*ESPAÇAMETNO LOGO FNS*/
     
     width: 100%;
+}
+
+.textossistemas{
+    width: 90%;
 }
 
 }
